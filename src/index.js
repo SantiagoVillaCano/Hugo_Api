@@ -1,5 +1,3 @@
-// ── src/index.js ───────────────────────────────────────────────────
-
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
@@ -11,7 +9,6 @@ root.render(
   </React.StrictMode>
 );
 
-// Registrar Service Worker para PWA
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
     navigator.serviceWorker
